@@ -31,3 +31,37 @@
 </body>
 </html>
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+section#produtos article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
